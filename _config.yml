@@ -56,8 +56,8 @@ defaults:
       comments: "true"
 
 # Serving
-url: "hellozin.github.io"
-baseurl: "hellozin.github.io"
+url: "http://hellozin.github.io"
+baseurl: ""
 
 # Includes
 include: ["_pages"]
