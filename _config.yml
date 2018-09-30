@@ -57,7 +57,7 @@ defaults:
 
 # Serving
 url: "https://hellozin.github.io/"
-baseurl: ""
+baseurl: "https://hellozin.github.io/"
 
 # Includes
 include: ["_pages"]
