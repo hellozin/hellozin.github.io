@@ -9,3 +9,11 @@ category:
 
 Hi, I'm in testing.
 > Test is on.
+
+Long Text Test.
+There is Long Text.
+
+<!--more-->
+
+There is Another Text.
+The End.
