@@ -2,8 +2,9 @@
 layout: post
 date: 2018-10-01 04:12
 title:  "Hello, Sample!"
+permalink: "/sample/"
 mood: sleepy
-category: 
+category:
 - docs
 ---
 
