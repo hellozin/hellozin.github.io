@@ -1,23 +1,23 @@
 # General Settings
-name: Steve Austin
-job_title: UI/UX Engineer
-email: youremail@gmail.com
-description: I build great products at Google, currently Google Maps. I also enjoy capturing moments with my camera and discovering new music. Follow me Twitter or drop me a line.
-avatar: https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg
+name: Hello Zin
+job_title: Student
+email: paul26375@gmail.com
+description: I DO RANDOM THINGS.
+avatar: /hellozin.jpg
 favicon: /favicon.ico
 twitter_handler: your_handler
 analytics_code: UA-XXXXXXX-2
-disqus: your_disqus_site
+disqus: hellozin
 
 # Social Accounts
 social_networks:
--  { name: facebook, url: 'http://facebook.com' }
--  { name: twitter, url: 'http://twitter.com' }
--  { name: instagram, url: '' }
+-  { name: facebook, url: '' }
+-  { name: twitter, url: '' }
+-  { name: instagram, url: 'http://www.instagram.com/hello_zin.94/?hl=ko' }
 -  { name: google-plus, url: '' }
 -  { name: linkedin, url: '' }
 -  { name: skype, url: '' }
--  { name: github, url: '' }
+-  { name: github, url: 'http://github.com/hellozin/' }
 -  { name: codepen, url: '' }
 -  { name: stack-overflow, url: '' }
 -  { name: dribbble, url: '' }
@@ -56,7 +56,7 @@ defaults:
       comments: "true"
 
 # Serving
-url: ""
+url: "https://hellozin.github.io"
 baseurl: ""
 
 # Includes
@@ -78,4 +78,3 @@ excerpt_separator: <!--more-->
 sass:
   sass_dir: assets/partials
   style: compressed
-
