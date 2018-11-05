@@ -17,8 +17,8 @@ tags:
 All configuration options are in the <code>_config.yml</code> file.
 
 <figure>
-    <img src="https://d13yacurqjgara.cloudfront.net/users/239125/screenshots/2591055/littleprincedribbble.jpg" />
-    <figcaption>Created by <a href="https://dribbble.com/Pmafra" target="_blank_">Patricia Mafra</a></figcaption>
+    <img src="https://cdn.dribbble.com/users/1073937/screenshots/5036567/waterfall.png" />
+    <figcaption>Created by <a href="https://dribbble.com/HannahLizSharp" target="_blank_">Hannah Sharp</a></figcaption>
 </figure>
 
 ##### General Settings

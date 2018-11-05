@@ -64,6 +64,13 @@
 	display: flex;
 }
 
+@mixin flex-flow($values: (row wrap)) {
+	-webkit-flex-flow: $values;
+	-moz-flex-flow: $values;
+	-ms-flex-flow: $values;
+	flex-flow: $values;
+}
+
 @mixin justify-content($pos: center) {
 	-webkit-justify-content: $pos;
 	justify-content: $pos;
