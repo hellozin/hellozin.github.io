@@ -14,9 +14,13 @@ category:
 
 # 채용 시 마감
 
+* [Kakao 사내정보시스템 개발자 모집](#Kakao-사내정보시스템-개발자-모집)
+* [지그재그(ZIGZAG) 웹 개발자](#지그재그(ZIGZAG)-웹-개발자)
+
 ---
 
-## Kakao 사내정보시스템 개발자 모집 [지원하기](https://careers.kakao.com/jobs/P-9336?part=TECHNOLOGY&page=1&company=KAKAO)
+## Kakao 사내정보시스템 개발자 모집
+#### [지원하기](https://careers.kakao.com/jobs/P-9336?part=TECHNOLOGY&page=1&company=KAKAO){:target="_blank"}
   
 ### 담당업무
 
@@ -34,9 +38,11 @@ category:
 
 * 재무/인사관련 시스템 개발 경험이 있는 분
 * 자바 이외의 웹 어플리케이션 개발역량이 있는 분
+
 ---
 
-## 지그재그(ZIGZAG) 웹 개발자 [지원하기](https://career.zigzag.kr/recruit/)
+## 지그재그(ZIGZAG) 웹 개발자 
+#### [지원하기](https://career.zigzag.kr/recruit/){:target="_blank"}
 
 ### 주요업무
 
@@ -55,6 +61,3 @@ category:
 
 * TypeScript 사용 경험
 * 새로운 웹 기술에 대한 관심
-
----
-
