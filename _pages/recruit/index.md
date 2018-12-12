@@ -1,5 +1,5 @@
 ---
 layout: page
-title:  "사기업 스터디"
+title:  "취업일정"
 permalink: "/study/"
 ---
