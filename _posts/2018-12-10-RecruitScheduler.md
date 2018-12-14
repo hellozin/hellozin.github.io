@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2018-11-06 02:36
+date: 2018-12-10 02:36
 title:  "취업 정보"
 permalink: "/recruit/"
 mood: happy
