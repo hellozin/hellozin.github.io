@@ -14,12 +14,12 @@ category:
 
 ## 채용 시 마감
 
-* #### Kakao 사내정보시스템 개발자 모집
-* #### 지그재그(ZIGZAG) 웹 개발자
+* [Kakao 사내정보시스템 개발자 모집](#kakao)
+* [지그재그(ZIGZAG) 웹 개발자](#zigzag)
 
 ---
 
-## Kakao 사내정보시스템 개발자 모집
+## <a name="kakao"></a>Kakao 사내정보시스템 개발자 모집
 [지원하기](https://careers.kakao.com/jobs/P-9336?part=TECHNOLOGY&page=1&company=KAKAO){:target="_blank"}
   
 ### 담당업무
@@ -41,7 +41,7 @@ category:
 
 ---
 
-## 지그재그(ZIGZAG) 웹 개발자 
+## <a name="zigzag"></a>지그재그(ZIGZAG) 웹 개발자 
 [지원하기](https://career.zigzag.kr/recruit/){:target="_blank"}
 
 ### 주요업무
