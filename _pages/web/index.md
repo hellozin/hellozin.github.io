@@ -1,5 +1,5 @@
 ---
 layout: page
-title:  "Web"
+title:  "웹 개발"
 permalink: "/web/"
 ---
