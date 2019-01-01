@@ -5,7 +5,7 @@ type: about
 
 웹 개발자.
 
-> Who is your Hero?
+> Who is your Hero?  
 > It's me in ten years. - Matthew McConaughey
 
 ### Activity
