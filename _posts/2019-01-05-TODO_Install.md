@@ -4,5 +4,15 @@ description: 윈도우 포맷, 컴퓨터 구매 후 설치하는 프로그램 �
 categories:
  - Guide
 ---
+# 설치한 프로그램
 
-설치할 프로그램을 정리하는 포스트입니다.
+## Visual Studio Code
+
+- HTML Snippets
+- ESLint
+
+## Git
+
+## Rescue Time
+
+## Node.js
