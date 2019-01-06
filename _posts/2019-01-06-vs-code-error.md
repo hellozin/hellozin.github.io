@@ -9,7 +9,7 @@ VS Code는 다양한 기능을 지원하는 Editor로 내장된 Source Control �
 
 보통 Git Bash 나 VSC 터미널에서 Git을 사용했는데 VSC 내부에 Source Control 패널이 있어 사용해보았더니
 
-![](../assets/images/post/2019-01-06-vs-code-error-errormsg.png)
+![](https://www.github.com/hellozin/hellozin.github.io/assets/images/post/2019-01-06-vs-code-error-errormsg.png)
 
 `Make sure you configure your 'user.name' and 'user.email' in git.`
 
