@@ -22,3 +22,4 @@ newFile.write("---\n")
 newFile.write("\nWrite Here!\n")
 
 newFile.close()
+print(fullFileName+" 파일이 생성되었습니다.")
