@@ -1,17 +1,12 @@
 import datetime
-import sys
 
-if len(sys.argv) == 1:
-    print("파일명이 필요합니다.")
-    sys.exit(1)
+print("파일 이름을 입력하세요. (입력하지 않으면 'YYYY-MM-DD-Undefined.md'로 지정됩니다.)")
+fileName = input("파일명 : ")
 
-fileName = sys.argv[1]
-for i in range(len(sys.argv)):
-    if i < 2:
-        continue
-    else:
-        fileName += "-" + sys.argv[i]
-print(fileName)
+if len(fileName) is 0:
+    fileName = "Undefined"
+
+fileName = fileName.replace(" ", "-")
 
 now = datetime.datetime.now()
 fullFileName = now.strftime("%Y-%m-%d-"+fileName+".md")
