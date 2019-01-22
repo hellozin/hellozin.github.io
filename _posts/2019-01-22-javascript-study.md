@@ -12,12 +12,15 @@ JavaScript를 이제 막 공부하기 시작한 취준생이 공부하며 궁금
 
 <!-- more -->
 
+---
+
 ## 목록
 
 - [Node 객체와 Element 객체의 차이점](#Node-객체와-Element-객체의-차이점)
 
-### Node 객체와 Element 객체의 차이점
 ---
+
+### Node 객체와 Element 객체의 차이점
 
 **DOM (Document Object Model)** 에 대해 공부하던 도중 **nodeName** 이라는 프로퍼티를 사용하다가 생각과는 다른 결과를 발견했다.
 
@@ -37,3 +40,4 @@ JavaScript를 이제 막 공부하기 시작한 취준생이 공부하며 궁금
 
 `TypeError` 와 함께 아무런 결과도 출력되지 않았다.
 
+---
