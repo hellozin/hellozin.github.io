@@ -12,6 +12,8 @@ tags:
 
 <!-- more -->
 
+<br/>
+
 ## 스크립트 적용 사항
 
 스크립트를 적용시키려는 항목은 아래와 같으며 **Jekyll Theme**에 따라 항목이 달라질 수 있다.
@@ -33,6 +35,8 @@ tags:
  - 여기에 태그명을 입력합니다. (선택)
 ---
 ```
+
+<br/>
 
 ## 스크립트 작성
 
@@ -77,16 +81,19 @@ newFile = open("./_posts/"+fullFileName, "w+")
 `date` 정보는 앞서 사용한 날짜 정보를 이용해 작성한다.
 
 ```python
-newFile.write("---\n")
-newFile.write("title: \n")
-newFile.write("date: "+now.strftime("%Y-%m-%d %H:%M:%S")+"\n")
-newFile.write("categories: \n")
-newFile.write("tags: \n")
-newFile.write("---\n")
+dateInfo = now.strftime("%Y-%m-%d %H:%M:%S")
+newFile.write("---                  \n")
+newFile.write("title:               \n")
+newFile.write("date: "+ dateInfo +" \n")
+newFile.write("categories:          \n")
+newFile.write("tags:                \n")
+newFile.write("---                  \n")
 newFile.write("\nWrite Here!\n")
 
 newFile.close()
 ```
+
+<br/>
 
 ## 전체 코드
 
@@ -106,12 +113,14 @@ fullFileName = now.strftime("%Y-%m-%d-"+fileName+".md")
 
 newFile = open("./_posts/"+fullFileName, "w+")
 
-newFile.write("---\n")
-newFile.write("title: \n")
-newFile.write("date: "+now.strftime("%Y-%m-%d %H:%M:%S")+"\n")
-newFile.write("categories: \n")
-newFile.write("tags: \n")
-newFile.write("---\n")
+dateInfo = now.strftime("%Y-%m-%d %H:%M:%S")
+newFile.write("---                  \n")
+newFile.write("title:               \n")
+newFile.write("date: "+ dateInfo +" \n")
+newFile.write("categories:          \n")
+newFile.write("tags:                \n")
+newFile.write("---                  \n")
+
 newFile.write("\nWrite Here!\n")
 
 newFile.close()
