@@ -36,3 +36,4 @@ EJB은 비즈니스로직을 Enterprise Bean으로, DB 처리와 트랜젝션 �
 
 - EJB란? [Grim Reaper의 IT-Story](https://pokey.tistory.com/7)
 - POJO (Plain Old Java Object) [DeveloperGatsby.com](https://itewbm.tistory.com/entry/POJOPlain-Old-Java-Object)
+- [Java] POJO란? [Dreamy](https://m.blog.naver.com/writer0713/220700687650)
