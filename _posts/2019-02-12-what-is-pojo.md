@@ -1,5 +1,5 @@
 ---
-title: POJO?
+title: POJO란?
 date: 2019-02-12 21:46:22
 categories: 
  - TIL
@@ -14,7 +14,7 @@ Spring을 처음 시작하다보면 만나게 되는 POJO. 다른 블로그들�
 
 <!-- more -->
 
-### EJB (Enterprise Java Beans)
+### POJO (Enterprise Java Beans)
 
 POJO에 대해 알아보기에 앞서 먼저 EJB라는 녀석에 대해 간략하게 알고 넘어가야한다.
 
@@ -25,12 +25,10 @@ POJO에 대해 알아보기에 앞서 먼저 EJB라는 녀석에 대해 간략�
 
 EJB은 비즈니스로직을 Enterprise Bean으로, DB 처리와 트랜젝션 처리 등의 시스템 로직을 Container로 분리했다.
 
-뭐 그렇단다. 사실 EJB 만으로도 내용이 많아 여기까지 쓴다.  
-그리고 EJB를 사용하다 보니 상황에 따라 느리고 무겁다고 느끼는 개발자가 늘어났다.
+뭐 그렇단다. 사실 EJB 만으로도 내용이 많아 여기까지 써야할 것 같다.  
+결국 EJB가 점점 복잡하고 불필요하게 사이즈가 커지는 경우가 많아 불만사항이 늘어났다.
 
 그래서 이런 복잡한 구조가 아닌 그저 '평범한 자바 오브젝트'를 사용하기 시작했고 그럴듯한 이름을 지은것이 POJO, Plain Old Java Object 인 것이다.
-
-### POJO (Plain Old Java Object)
 
 ### Reference
 
