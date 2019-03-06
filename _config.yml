@@ -736,3 +736,6 @@ images: assets/images
 
 # Theme version
 version: 5.1.1
+
+# Image Url
+img_url: "https://s3.ap-northeast-2.amazonaws.com/img.blog.post"
