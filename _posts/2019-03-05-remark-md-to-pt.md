@@ -76,8 +76,8 @@ tags:
 
 `<textarea id="source">` 태그 안에 `Remark` 형식에 맞는 마크다운을 작성하고 html을 실행해 보면 다음과 같은 PT를 간단하게 얻을 수 있다.
 
-<img width="300px" src="{{ side.img_url }}/simple-slide-1.PNG">
-<img width="300px" src="{{ side.img_url }}/simple-slide-2.PNG">
+<img width="300px" src="https://s3.ap-northeast-2.amazonaws.com/img.blog.post/0306-simple-slide-1.PNG">
+<img width="300px" src="https://s3.ap-northeast-2.amazonaws.com/img.blog.post/0306-simple-slide-2.PNG">
 
 당연히 마크다운의 헤더, 목록, 코드블럭 등을 사용할 수 있고 약간의 CSS만 사용하면 레이아웃도 나눌 수 있다.(Remark에서 공식적으로 지원하는 방법이 있는지는 아직 확인하지 못했다. 레이아웃을 나누는 방법은 다른 글에서 설명한다.)
 
