@@ -89,6 +89,31 @@ tags:
 
 슬라이드는 `---` 을 기준으로 나누어 진다. `<hr />`이 아님에 유의하자.
 
-===
+```markdown
+# Slide 1
+첫번째 슬라이드
 
-... 작성중 ...
+---
+
+# Slide 2
+두번째 슬라이드
+```
+
+### 2. 정렬
+
+`class` 프로퍼티를 사용해 해당 슬라이드의 정렬 방법을 지정할 수 있다. 기본적으로 제공하는 클래스는 `left`, `center`, `right`, `top`, `middle`, `bottom` 이 있다.
+
+```markdown
+class: center
+
+# Aligned Slide
+이 슬라이드는 수평으로 중앙 정렬됩니다.
+
+---
+class: center, middle
+
+# Aligned Slide
+이 슬라이드는 수직, 수평으로 중앙 정렬됩니다.
+```
+
+### 3. 
