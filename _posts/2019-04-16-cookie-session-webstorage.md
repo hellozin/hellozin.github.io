@@ -1,8 +1,8 @@
 ---
-title: (작성중) 쿠키, 세션 그리고 웹 스토리지
+title: 쿠키, 세션 그리고 웹 스토리지
 date: 2019-04-16 22:59:48
 categories: 
-  - Web
+  - WEB
 tags: 
   - study
 ---
