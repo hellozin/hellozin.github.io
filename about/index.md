@@ -5,8 +5,11 @@ type: about
 
 <br>
 
-> ### Who is your Hero?  
-> ### It's me in ten years. - Matthew McConaughey
+안영진.
+Java Spring 을 공부하는 중입니다.
+
+> Who is your Hero?  
+> It's me in ten years. - Matthew McConaughey
 
 <br>
 
