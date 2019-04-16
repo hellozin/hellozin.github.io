@@ -7,7 +7,11 @@ tags:
   - study
 ---
 
-쿠키, 세션, 웹 스토리지를 설명하기에 앞서 왜 사용하는지를 더 쉽게 이해하기 위해 HTTP 프로토콜의 특징을 알아보겠습니다.
+쿠키, 세션, 웹 스토리지에 대해 간략히 정리해보았습니다.
+
+<!-- more -->
+
+**쿠키**, **세션**, **웹 스토리지**를 설명하기에 앞서 왜 사용하는지를 더 쉽게 이해하기 위해 **HTTP 프로토콜**의 특징을 알아보겠습니다.
 
 ### HTTP 프로토콜의 특징
 
@@ -48,7 +52,7 @@ Cookie: name=hellozin; job=developer
 - 클라이언트가 종료되면 삭제되는 휘발성 쿠키인 `Session Cookie`
 - 클라이언트가 종료되어도 일정 기간 유지되는 `Permanent Cookie`
 
-`Expires(날짜와 시간)` 혹은 `Max-Age(초)` 를 명시해 해당 날짜, 혹은 시간까지 쿠키를 유지할 수 있고 아무것도 명시하지 않을 경우 **Session Cookie** 가 됩니다.
+**Permanent Cookie**는 `Expires(날짜와 시간)` 혹은 `Max-Age(초)` 를 명시해 해당 날짜, 혹은 시간까지 쿠키를 유지할 수 있고 아무것도 명시하지 않을 경우 **Session Cookie** 가 됩니다.
 
 ```
 Set-Cookie: name=hellozin; Expires=Wed, 21 Oct 2019 07:28:00 GMT;
@@ -108,8 +112,6 @@ Cross-site 스크립팅(XXS) 공격의 예
 #### 세션 스토리지
 
 **세션 스토리지**는 각 세션마다 데이터가 **개별적으로 저장**되며 로컬 스토리지와 다르게 세션을 종료하면 데이터가 **자동으로 제거**되며 같은 도메인이라도 **세션이 다르면** 데이터에 접근할 수 없습니다.
-
-출처: https://untitledtblog.tistory.com/47 [Untitled]
 
 ### Reference
 
