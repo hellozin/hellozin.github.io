@@ -103,7 +103,7 @@ HTTP POST /api/user
 
 굉장히 길고 자세한 결과가 반환되지만 경우에 따라 간단한 결과만 반환할수도 있기 때문에 `Controller`의 예외를 처리할 수 있는 `ExceptionHandler`로 해당 메시지를 줄여보도록 하겠습니다.
 
-`Controller`내에 정의해도 되고 전역 설정을 위해 `@ControllerAdvice`를 정의해도 되는데 여기서는 `@ControllerAdvice`를 사용해서 처리해 보도록 하겠다.
+`Controller`내에 정의해도 되고 전역 설정을 위해 `@ControllerAdvice`를 정의해도 되는데 여기서는 `@ControllerAdvice`를 사용해서 처리해 보도록 하겠습니다.
 
 ```java
 [ ExceptionAdvisor.java ]
