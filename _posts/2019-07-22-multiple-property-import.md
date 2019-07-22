@@ -54,7 +54,7 @@ private Map<String, Object> getMapFromKeyValuePairs(String[] properties) {
 
 디버깅을 통해 확인한 `getMapFromKeyValuePairs()`의 반환값
 
-![](img/2019-07-22-21-56-12.png)
+![](https://raw.githubusercontent.com/hellozin/TIL/master/Spring/img/2019-07-22-21-56-12.png)
 
 키 값 `'spring.config.location'`에 3개의 yml 파일을 모두 추가하기 위해 `properties()` 의 **argument**를 다음과 같이 `'spring.config.location='` 뒤에 `','`로 추가해줍니다.
 
@@ -74,6 +74,6 @@ public static void main(String[] args) {
 
 똑같이 실행 후 `getMapFromKeyValuePairs()`의 반환값을 확인해 보면 3개의 yml 파일이 추가된 것을 볼 수 있고 코드도 정상 동작하는 것을 확인할 수 있습니다.
 
-![](img/2019-07-22-22-22-31.png)
+![](https://raw.githubusercontent.com/hellozin/TIL/master/Spring/img/2019-07-22-22-22-31.png)
 
 이렇게 저장된 **property**가 어떻게 사용되는지까지는 확인하지 못했지만 여러개의 property를 추가하는 방법에 대해 알 수 있었습니다.
