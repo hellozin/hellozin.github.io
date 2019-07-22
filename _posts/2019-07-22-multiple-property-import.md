@@ -52,8 +52,9 @@ private Map<String, Object> getMapFromKeyValuePairs(String[] properties) {
 
 **HashMap**을 통해 입력한 yml을 추가하고 있었습니다. 이 때 application, mail, google 3개의 property 모두 `'spring.config.location'` 라는 같은 키 값을 가져 가장 마지막에 `put()`이 실행된 mail.yml 만 적용된 것을 볼 수 있습니다.
 
-![](img/2019-07-22-21-56-12.png)
 디버깅을 통해 확인한 `getMapFromKeyValuePairs()`의 반환값
+
+![](img/2019-07-22-21-56-12.png)
 
 키 값 `'spring.config.location'`에 3개의 yml 파일을 모두 추가하기 위해 `properties()` 의 **argument**를 다음과 같이 `'spring.config.location='` 뒤에 `','`로 추가해줍니다.
 
