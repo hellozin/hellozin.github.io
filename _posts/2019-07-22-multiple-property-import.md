@@ -76,3 +76,7 @@ public static void main(String[] args) {
 ![]({{site.img_url}}/2019-07-22-22-22-31.png)
 
 이렇게 저장된 **property**가 어떻게 사용되는지까지는 확인하지 못했지만 여러개의 property를 추가하는 방법에 대해 알 수 있었습니다.
+
+### Reference
+
+- [Gradle 멀티 프로젝트 관리](https://jojoldu.tistory.com/123)

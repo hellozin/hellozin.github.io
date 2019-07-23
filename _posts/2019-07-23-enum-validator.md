@@ -144,3 +144,7 @@ Validation failed for argument [0] in public java.lang.String me.hello.blog.Simp
   default message [role],class me.hello.blog.Role,false];
   default message [Invalid value. This is not permitted.]]
 ```
+
+### Reference
+
+- [Java Enum Validator](https://funofprograming.wordpress.com/2016/09/29/java-enum-validator/)
