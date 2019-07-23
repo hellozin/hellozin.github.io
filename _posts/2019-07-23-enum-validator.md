@@ -1,11 +1,12 @@
 ---
 title: Enum Validator, String이 Enum 인지 검증하는 방법
 date: 2019-07-23 18:59:05
-categories: - spring/config
+categories: 
+ - spring/config
 tags: 
-  - spring
-  - validation
-  - enum
+ - spring
+ - validation
+ - enum
 ---
 
 Entity나 DTO를 검증하기 위해 @NotBlank, @Email 등 `javax.validation.constraints.*` validation을 사용하다 보면 아래와 같이 필드에 Enum 타입을 String으로 입력받는 경우가 있습니다. 이러한 경우 Enum 타입도 함께 validation 하는 방법을 정리해 보았습니다.

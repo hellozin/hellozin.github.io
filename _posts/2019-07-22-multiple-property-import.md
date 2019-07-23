@@ -1,13 +1,12 @@
 ---
-title: 
+title: Spring Boot에서 여러개의 Property, Yml을 추가하는 방법
 date: 2019-07-22 22:38:23
-categories: spring/config
+categories: 
+ - spring/config
 tags: 
  - spring
  - bugfix
 ---
-
-### Spring Boot에서 여러개의 Property, Yml을 추가하는 방법
 
 **Spring boot 프로젝트**에서 여러개의 **property** 혹은 **yml**을 추가하며 겪은 문제와 해결방법을 공유해 보겠습니다.
 
